@@ -1,0 +1,69 @@
+body{
+    font-family: arial;
+    color: white;
+    background-image: linear-gradient(to right, rgb(4, 76, 171),rgb(0, 0, 0) );
+}
+.box{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /*do position ou transform centralica o box*/
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+}
+.caixa{
+    width: 400px;
+    height: auto;
+    border: 3px solid dodgerblue;
+    position: relative;
+    top: 1px;
+    border-radius: 15px;
+}
+legend{
+    border: 1px solid dodgerblue;
+    padding: 8px;
+    text-align: center;
+    background-color: dodgerblue;
+    border-radius: 8px;
+    position: relative;
+}
+.inputBox{
+    height: 50px;
+    
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 1px;
+}
+.data{
+    border-radius: 8px;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    padding: 4px;
+    font-size: 15px;
+}
+#submitbtn{
+    background-image: linear-gradient(to right, rgb(0, 110, 255),rgb(16, 16, 85) );
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 10px;
+}
+#submitbtn:hover{
+    background-image: linear-gradient(to right, rgb(0, 90, 207),rgb(3, 3, 41) );
+}
+address a{
+    text-decoration: none;
+    color: white;
+}

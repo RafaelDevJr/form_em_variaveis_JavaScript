@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capturando variáveis JS</title>
+    <link rel="icon" href="./img/Logo-Rafael-3.svg"><!--Colar minha logo-->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset class="caixa">
+                <legend><strong>Formulário do Rafa</strong></legend><br>
+            <form action="" method="post" id="myform">
+                <div class="inputBox">
+                    <label for="firstname" class="labelInput">Nome Completo:</label>
+                    <input type="text" name="firstname" id="name"  class="inputUser" required>
+                </div>
+                <div class="inputBox">
+                    <label for="telefone" class="labelInput">Telefone:</label>
+                    <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                </div>
+                <div>
+                    <label for="mail" class="labelInput">E-mail:</label>
+                    <input type="email" name="mail" id="mymail" class="inputUser" required>
+                </div>
+                <div id="sexo">
+                    <br><label for="outro">Sexo:</label><br><br>
+                    <input type="radio" id="feminino" name="genero" value="feminino" required>
+                    <label for="feminino">Feminino</label><br> <!--O for nesse caso aumenta a area de contato, au clicar no nome ja marca a opção-->
+                    <input type="radio" id="masculino" name="genero" value="masculino" required>
+                    <label for="masculino">Masculino</label><br>
+                    <input type="radio" id="outro" name="genero" value="outro" required>
+                    <label for="outro">Outro</label><br><br>
+                </div>
+                    <label for="birth" class="labelInput"><strong>Data de Nascimento:</strong></label>
+                    <input type="date" name="birth" id="birthdate" class="data" required>
+                    <br><br>
+                <div class="inputBox">
+                    <label for="Cidade" class="labelInput">Cidade:</label>
+                    <input type="text" name="cidade" id="cidade" class="inputUser" required> 
+                </div>
+                <div class="inputBox">
+                    <label for="Estado" class="labelInput">Estado:</label>
+                    <input type="text" name="estado" id="estado" class="inputUser" required>
+                </div>
+                <div class="inputBox">
+                    <label for="Endereço" class="labelInput">Endereço:</label>    
+                    <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                </div><br>
+                <div>
+                    <button type="submit" id="submitbtn">Enviar Dados</button><br><br>
+                </div>
+            </form>
+            <footer>
+                <address>
+                    Material desenvolvido por <a href="https:linkedin.com/in/rafaeldiasnovaes/" target="_blank" rel="noopener noreferrer">Rafael Dias Novaes</a> &copy; 2022
+                </address>
+            </footer>
+                    <script src="./js/script.js"></script>
+        </fieldset>
+        </form>
+    </div>
+</body>
+</html>
